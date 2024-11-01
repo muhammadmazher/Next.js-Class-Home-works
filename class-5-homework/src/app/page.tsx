@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,11 +10,11 @@ export default function Home() {
       
       <div>
         <ol className="flex w-8/12 items-center gap-2">
-        <Link href=""><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Home</li></Link>
-        <Link href=""><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Apply</li></Link>
-        <Link href=""><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Jobs</li></Link>
-        <Link href=""><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Result</li></Link>
-        <Link href=""><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Home</li></Link>
+        <Link href="/"><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Home</li></Link>
+        <Link href="/"><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Apply</li></Link>
+        <Link href="/"><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Jobs</li></Link>
+        <Link href="/"><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Result</li></Link>
+        <Link href="/"><li className="bg-blue-400 shadow-lg rounded-lg w-20 h-8 content-center text-center text-sm text-white hover:bg-blue-500">Home</li></Link>
         </ol>
       </div>
     </nav>
