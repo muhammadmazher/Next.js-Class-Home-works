@@ -1,0 +1,21 @@
+Next.js
+* app router
+* pages directory
+
+Components:
+1) small chunck of HTML.
+2) combination of HTML and JavaScript Function
+
+Creating Component:
+1) components > Navbar.tsx
+
+Export :
+export default
+export default Navbar
+<<<-- Todays class -->>>
+Component 
+Routing
+Link
+
+Home Work:
+repeat all the learning of today
